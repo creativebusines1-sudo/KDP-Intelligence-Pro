@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@1,500&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-serif: "Playfair Display", Georgia, serif;
+
+  /* Map slate palette to Sophisticated Dark's custom zinc-black colors */
+  --color-slate-50: #fafafa;
+  --color-slate-100: #f4f4f5;
+  --color-slate-200: #e4e4e7;
+  --color-slate-300: #d4d4d8;
+  --color-slate-400: #a1a1aa;
+  --color-slate-500: #717172;
+  --color-slate-600: #52525b;
+  --color-slate-700: #3f3f46;
+  --color-slate-800: #27272a;
+  --color-slate-900: #111113;
+  --color-slate-950: #09090b;
+}
+
+/* Accent typographic treatment from 'Sophisticated Dark' */
+.accent-text {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 500;
+}
+
+/* Custom scrollbar behavior for premium SaaS experience */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 4px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #27272a;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46;
+}

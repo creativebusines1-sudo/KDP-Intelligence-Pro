@@ -1,0 +1,6 @@
+{
+  "name": "KDP Intelligence Pro",
+  "description": "Premium SaaS suite for Amazon KDP publishers. Discover profitable niches, analyze keywords, evaluate competition, generate AI book outlines, optimize listings, track ranks, and calculate royalties.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
